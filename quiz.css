@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,400;0,700;1,100;1,900&display=swap');
+#quiz{
+    margin: 100px;
+    padding: 50px;
+    font-family: 'Texturina', serif;
+    box-shadow: #e65c00 0px 0px 20px 20px;
+    border-radius: 30px;
+
+}
+
+p{
+    margin: 10px;
+}
+
+#button{
+    margin: 0px auto;
+    color: #e65c00;
+    margin-bottom: 75px;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+#button:hover{
+    background-color: #e65c00;
+    color: white;
+}
+.button{
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+h3{
+    font-family: 'Nerko One', cursive;
+    margin: 200px 30px 20px 30px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    #quiz{
+        box-shadow: none;
+        
+        margin: 5px 50px 5px 20px;
+    }
+    h2{
+        font-size: 20px;
+
+    }
+}

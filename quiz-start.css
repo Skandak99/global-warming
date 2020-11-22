@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-color: black;
+}
+
+
+
+.container{
+    background-color: black;
+    color: white;
+    background-image: url("https://res.cloudinary.com/dpf5rgios/image/upload/c_scale,h_720,w_1500/v1605414699/download_qbrydm.jpg");
+    
+    background-repeat: no-repeat;
+    min-height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+.start img{
+    margin-top: 10px;
+}
+div{
+    font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+div{
+    font-family: 'Goldman', cursive;
+}
+.click{
+    font-weight: 900;
+    font-size: 25px;
+    
+}
+.up{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 10px 5px;
+}
+.up img{
+    margin-left: 10px;
+}
+.first{
+    font-size: 20px;
+    font-weight: 600;
+}
+.global, .solu{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.start{
+    font-size: 20px;
+}
+img{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    border: black 5px solid;
+    
+}
+
+img:hover{
+    opacity: 0.8;
+    
+}
+.would img:hover{
+    border:lawngreen 5px solid;
+}
+
+.start img:hover{
+    border: 5px solid red;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin: 10px 50px;
+       background-image: none;
+    }
+    .start{
+        background-image: url("https://res.cloudinary.com/dpf5rgios/image/upload/c_scale,h_720,w_1500/v1605414699/download_qbrydm.jpg");
+        background-size: 100% 100%;
+    }
+    body *{
+        font-size: 15px;
+    }
+    
+}

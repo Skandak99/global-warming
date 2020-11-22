@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="nav.css">
+ 
+</head>
+
+    <body>
+        <div class="container">
+            <header>
+             <nav>
+                 <ul>
+                     <a href="what.html"><li>Global Warming</li></a>  
+                     <a href="solution.html"><li>Solution</li></a> 
+                     <a href="quiz-start.html"><li>Quiz</li></a>    
+                      
+                        
+                 </ul>
+             </nav>
+            </header>
+            <div class="quiz" id="quiz">
+               
+                <form class="q" name="quiz" >
+                    <div class="q1">
+                        <h2>What is Global Warming?</h2>
+                        <p><input type="radio" name="question1" value="a" id="">A gradual decrease in world temperatures caused by certain gases that are collecting in the air around the earth</p>
+                        
+                        <p><input type="radio" name="question1" value="b" id="">A sudden increase in world temperatures caused by certain gases that are collecting in the air around the earth</p>
+                        
+                        <p><input type="radio" name="question1" value="c" id="">A gradual increase in world temperatures caused by certain gases that are collecting in the air around the earth</p>
+                        
+                        <p><input type="radio" name="question1" value="d" id="">A gradual decrease in world temperatures caused by certain gases that are collecting in the air around the earth</p>
+                        
+                    </div>  <br> <br>
+                    <div class="q2">
+                     <h2>What will be the estimated temperature in celcius of the Earth if the GREENHOUSE EFFECT does not take place?</h2>
+                     <p><input type="radio" name="question2" value="a" id="">-18</p>
+                    
+                     <p><input type="radio" name="question2" value="b" id="">0</p>
+                     
+                     <p><input type="radio" name="question2" value="c" id="">8</p>
+                     
+                     <p><input type="radio" name="question2" value="d" id="">38</p>
+                     
+                    </div> <br> <br>
+                    <div class="q3">
+                     <h2>Select the correct pair of Greenhouse gases?</h2>
+                     <p><input type="radio" name="question3" value="a" id="">Hydrogen, Helium, Neon </p>
+                     
+                     <p><input type="radio" name="question3" value="b" id="">Carbon Dioxide, Methane, Water Vapour</p>
+                     
+                     <p><input type="radio" name="question3" value="c" id="">Oxygen, Nitrogen, Carbon Dioxide</p>
+                     
+                     <p><input type="radio" name="question3" value="d" id="">Carbon Dioxide, Methane, Nitrous Oxide</p>
+                     
+                    </div> <br> <br>
+                    <div class="q4">
+                     <h2>Since when has global warming been taking place?</h2>
+                     <p><input type="radio" name="question4" value="a" id="">It has always been taking place on earth...</p>
+                     
+                     <p><input type="radio" name="question4" value="b" id="">Since the Industrial Revolution</p>
+                     
+                     <p><input type="radio" name="question4" value="c" id="">Both A and B</p>
+                     
+                     <p><input type="radio" name="question4" value="d" id="">None of These</p>
+                     
+                    </div> <br> <br>
+                    <div class="q5">
+                     <h2>Trees are ...? </h2>
+                     <p><input type="radio" name="question5" value="a" id="">Bad. Because they take up too much space that humans need.</p>
+                     
+                     <p><input type="radio" name="question5" value="b" id="">Good. As they act as Carbon Sinks.</p>
+                     
+                     <p><input type="radio" name="question5" value="c" id="">Bad. As they increase the chance of lightning</p>
+                     
+                     <p><input type="radio" name="question5" value="d" id="">Good. As when they grow we can cut them and we can make money.</p>
+                     
+                    </div> <br> <br>
+                    <div class="q6">
+                     <h2>Effect(s) of Global Warming</h2>
+                     <p><input type="radio" name="question6" value="a" id="">Attracts an Asteriod that will end Human Civilization as we know it</p>
+                     
+                     <p><input type="radio" name="question6" value="b" id="">Rise in Sea level</p>
+                     
+                     <p><input type="radio" name="question6" value="c" id="">OverPopulation</p>
+                     
+                     <p><input type="radio" name="question6" value="d" id="">Both B and C</p>
+                     
+                    </div> <br> <br>
+                    <div class="q7">
+                     <h2>Causes of Global Warming</h2>
+                     <p><input type="radio" name="question7" value="a" id="">Excess use of fertilizer</p>
+                     
+                     <p><input type="radio" name="question7" value="b" id="">Burning of fossil fuels</p>
+                     
+                     <p><input type="radio" name="question7" value="c" id="">Deforestation</p>
+                     
+                     <p><input type="radio" name="question7" value="d" id="">All of these</p>
+                     <label for=""></label>
+                    </div>  <br> <br>
+                    <br> <br>
+                   <div class="button">
+                    <input type="button" id="button" value="I'm done" onclick="check()">
+                   </div>
+                </form>
+                
+               </div>
+            </div>
+            <h3 id="result"></h3>
+         </div>
+         <script src="quiz.js"></script>
+    </body>
